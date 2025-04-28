@@ -1,0 +1,59 @@
+body {
+    font-family: georgia, sans-serif;
+    margin: 5;
+    padding: 10;
+    background-color: lab(96.17% -1.85 0.97);
+}
+
+/* Navigation Menu */
+.navbar {
+    background-color: #334e77;
+    padding: 10px ;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 3;
+    padding: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar ul li {
+    margin: 0 20px;
+}
+
+.navbar ul li a {
+    color: rgb(28, 153, 115);
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease;
+}
+
+.navbar ul li a:hover {
+    background-color: #d32a2a;
+    border-radius: 5px;
+}
+
+/* Content Section Styles */
+h1, h2 {
+    color: #09147c;
+}
+
+div {
+    padding: 20px;
+    margin: 10px;
+    background-color: rgb(214, 245, 158);
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(3, 58, 1, 0.1);
+}
+
+#home {
+    background-color: #93c5c7be;
+}
+
+#about, #courses, #admissions, #contact {
+    background-color: #599191;
+}
